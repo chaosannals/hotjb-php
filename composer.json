@@ -1,0 +1,32 @@
+{
+    "name": "chaosannals/hotjb",
+    "description": "hotjb",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chaosannals",
+            "email": "chaosannals@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "hotjb\\": "main"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "test\\": "test"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit test"
+    }
+}
